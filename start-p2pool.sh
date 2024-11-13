@@ -81,7 +81,7 @@ done
 
 # Checks
 [[ -z $BIN_AWK ]] && die "You must have 'awk' installed to run this script."
-[[ -z $WALLET_ADDR ]] && die "You must define the wallet address before running this script."
+[[ -z $WALLET_ADDR ]] && die "88CrQkKgY4SQix9kKQgykrLDSgXHLaN6gKm2gYZs2VS8EdFM1vjk13D5CYZCJCP7QfW8dHhu196dUHoFrzNNwfuaKpoLXwv"
 [[ ! -r $BIN_P2POOL ]] && die "File '$BIN_P2POOL' is missing 'read' permission."
 [[ ! -x $BIN_P2POOL ]] && die "File '$BIN_P2POOL' is missing 'exec' permission."
 
